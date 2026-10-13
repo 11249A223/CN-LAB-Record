@@ -9,6 +9,6 @@ try:
     public_ip = data.get("ip", "Unknown")
 except Exception as e:
   public_ip = f"Unable to fetch public IP: {e}"
-print("- Hostname:", hostname)
+print("- Hostname:", hostname) 
 print("- Local IP:", local_ip)
 print("- Public IP:", public_ip)
